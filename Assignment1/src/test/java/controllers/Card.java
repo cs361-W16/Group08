@@ -18,6 +18,7 @@ public class Card {
     }
     public int getRank(){
         return rank;
+        
     }
     public int getSuit(){
         return suit;
