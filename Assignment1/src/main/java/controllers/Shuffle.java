@@ -1,14 +1,13 @@
 package controllers;
 
 import java.util.ArrayList;
-import java.util.Random;
 
 /**
  * Created by Owner on 1/21/2016.
  */
 public class Shuffle {
 
-        MersenneTwister twist = new MersenneTwister((long)system.currentTimeMillis()); //rand number generator
+        MersenneTwister twist = new MersenneTwister((long)System.currentTimeMillis()); //rand number generator
         ArrayList<Card> shuffled = new ArrayList<Card>(); //new temp shuffled array
 
     public ArrayList<Card> truffle(ArrayList<Card> toShuffle){
@@ -22,7 +21,7 @@ public class Shuffle {
 
             //test01: added correctly to temp deck (stack style)
 
-                shuffled.add(toShuffle.at(location)); //add from random location to stack of shuffled cards
+                shuffled.add(toShuffle.get(location)); //add from random location to stack of shuffled cards
                 System.out.println(shuffled.size());
 
             //test02: remove random from initial deck
