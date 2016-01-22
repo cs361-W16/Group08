@@ -5,17 +5,17 @@ package controllers;
  */
 public class Deck {
     private Card[] cards;
-    int i;
+    int currentCard;
 
     Deck(){
-        i = 51;
         cards = new Card[52];
         int x=0;
-        for (int a = 0; a < 4; a++){
-            for (int b = 0; b < 14; b++){
-                cards[x] = new Card(a,b);
-                x++;
+
+        for (int i = 0; i < 4 ; i++){
+            for (int j = 0; j < 13; j++){
+                cards[x++] = new Card(i,j);
             }
         }
+        currentCard = 0;
     }
 }
