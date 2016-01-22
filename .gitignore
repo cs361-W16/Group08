@@ -1,4 +1,4 @@
 Assignment1/.idea/*
 Assignment1/target/*
-.idea/*
-.idea/libraries/*
+.idea/**
+.idea/libraries/**
