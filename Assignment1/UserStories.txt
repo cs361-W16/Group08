@@ -1,0 +1,22 @@
+Andrew
+As a user I want to be able to shuffle cards so that the games will be different.
+To do this we need to have a randomization function that changes the order of our arraylist.
+Tests for this check to make sure the unshuffled deck has been passed in correctly,
+all of the elements from the initial unshuffled deck are in the new shuffled deck,
+and that the new shuffled deck has been properly returned so that it can be saved to where the original deck came from.
+
+Brandon
+As a user I want to be able to deal cards so that each move can occur.
+I will need to have a function that adds a card to the beginning of each arraylist within our 2D arraylist.
+To test this we can check [0] of each of the four columns before and after dealing to make sure they differ.
+
+Emily
+As a user I want to be able to remove cards so that I can play.
+There needs to be a function that checks if there are two cards of the same suit in the four [0] spots,
+    [cont.] then make ensures that the one being removed is the smaller.
+A test should check the [0] spots before and after a removal and make sure that they differ and that the logic was correct.
+
+Jason
+As a user I want to be able to know if I won or lost so that I can finally escape this game.
+There needs to be a function that can determine if the deck is empty and what the current cards in position [0] are.
+A test
