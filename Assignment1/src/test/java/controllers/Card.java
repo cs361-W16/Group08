@@ -7,7 +7,7 @@ public class Card {
     private int rank, suit;
 
     private static String[] suits = {"heart","spades","diamond","clubs"};
-    private static String[] ranks = {"Ace", "2", "3", "4","5","6","7","8","9","10","Jack","Queen","King"};
+    private static int[] ranks = {2,3,4,5,6,7,8,9,10,11,12,13,14};
 
     Card(int suit, int rank){
         this.rank = rank;
@@ -18,6 +18,7 @@ public class Card {
     }
     public int getRank(){
         return rank;
+
     }
     public int getSuit(){
         return suit;
