@@ -1,5 +1,6 @@
 package controllers;
 
+
 /**
  * Created by Jason Ye on 1/20/2016.
  */
@@ -14,6 +15,7 @@ public class Card {
         this.suit = suit;
     }
     public String toString(){
+        //testing to print out a card with rank and suit...
         return ranks[rank] + " of " + suits[suit];
     }
     public int getRank(){
