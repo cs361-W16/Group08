@@ -11,7 +11,7 @@ public class Game {
     /**
      * Created by Emily on 1/22/2016.
      */
-
+    //pseudocode partially, couldn't get ajax/json connection working :[
     public void remove_card(int ClickedColumn, Game.TableCreator current){
         for(int i=0; i<4; i++) {
             current.table.get(i).get(0);
