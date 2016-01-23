@@ -6,7 +6,7 @@ import java.util.ArrayList;
  */
 public class Deck {
 
-    private ArrayList<Card> cards;
+    public ArrayList<Card> cards;
     Deck(){
        cards = new ArrayList<Card>();
         for (int i = 0; i < 4 ; i++) {           //loop 4 suits
