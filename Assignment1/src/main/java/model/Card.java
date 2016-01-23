@@ -5,7 +5,7 @@ package model;
  * Created by Jason Ye on 1/20/2016.
  */
 public class Card {
-    private int rank, suit;
+    public int rank, suit;
 
     private static String[] suits = {"heart","spades","diamond","clubs"};
     private static int[] ranks = {2,3,4,5,6,7,8,9,10,11,12,13,14};
