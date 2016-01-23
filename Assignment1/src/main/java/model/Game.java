@@ -13,8 +13,14 @@ public class Game {
      */
     public static class Remove implements Serializable {
 
-        public void remove_card(card){
+        public void remove_card(Card toRemove){
 
+        }
+    }
+
+    public void Deal(Deck dealt, Game.TableCreator current){
+        for(int i=0; i<4; i++){
+            current.table.get(i).add(dealt.cards.get(0));
         }
     }
 

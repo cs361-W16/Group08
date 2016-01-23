@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
 public class TableTest {
     @Test
     public void testArrayListContents() {
-        TableCreator table = new TableCreator();
+        Game.TableCreator table = new Game.TableCreator();
         assertNotNull(table);
     }
 }
