@@ -18,6 +18,9 @@ public class Game {
         }
     }
 
+    /**
+     * Created by Brandon on 1/22/2016.
+     */
     public void Deal(Deck dealt, Game.TableCreator current){
         for(int i=0; i<4; i++){
             current.table.get(i).add(dealt.cards.get(0));
@@ -31,11 +34,7 @@ public class Game {
         public ArrayList<ArrayList<Card>> table;
         public ArrayList<Card> column;
 
-        public TableCreator(){
-            table = new ArrayList<ArrayList<Card>>();
-        }
-        public ArrayList<ArrayList<Card>> getTable(){
-            return table;
-        }
+        public TableCreator(){table = new ArrayList<ArrayList<Card>>();}
+        public ArrayList<ArrayList<Card>> getTable(){return table;}
     }
 }
