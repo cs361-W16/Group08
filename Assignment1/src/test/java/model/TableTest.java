@@ -11,7 +11,7 @@ import static org.junit.Assert.assertThat;
 public class TableTest {
     @Test
     public void testArrayListSize() {
-        TableCreator table = new TableCreator();
+        Game.TableCreator table = new Game.TableCreator();
         assertNotNull(table);
     }
 }
