@@ -19,4 +19,4 @@ A test should check the [0] spots before and after a removal and make sure that 
 Jason
 As a user I want to be able to know if I won or lost so that I can finally escape this game.
 There needs to be a function that can determine if the deck is empty and what the current cards in position [0] are.
-A test
+A test for this would ensure that the Deck is empty and position [0] of all four columns are Aces.
