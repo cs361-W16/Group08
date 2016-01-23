@@ -8,12 +8,15 @@ public class TableCreator {
     public ArrayList<ArrayList<Card>> table;
     public ArrayList<Card> column;
 
-    TableCreator(){
+    public TableCreator(){
         table = new ArrayList<ArrayList<Card>>();
-        column = new ArrayList<Card>();
-
+       /* column = new ArrayList<Card>();
         for(int i=0; i<4; i++) {
             table.add(column);
-        }
+        }*/
+    }
+
+    public ArrayList<ArrayList<Card>> getTable() {
+        return table;
     }
 }
