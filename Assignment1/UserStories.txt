@@ -1,7 +1,9 @@
 Andrew
 As a user I want to be able to shuffle cards so that the games will be different.
 To do this we need to have a randomization function that changes the order of our arraylist.
-A test
+Tests for this check to make sure the unshuffled deck has been passed in correctly,
+all of the elements from the initial unshuffled deck are in the new shuffled deck,
+and that the new shuffled deck has been properly returned so that it can be saved to where the original deck came from.
 
 Brandon
 As a user I want to be able to deal cards so that each move can occur.
