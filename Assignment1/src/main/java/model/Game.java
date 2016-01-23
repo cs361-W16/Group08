@@ -1,5 +1,9 @@
 package model;
 
+import java.io.Serializable;
+import java.util.ArrayList;
+
+
 /**
  * Created by Emily on 1/22/2016.
  */
@@ -7,7 +11,7 @@ public class Game {
     /**
      * Created by Emily on 1/22/2016.
      */
-    public static class Remove implements Serializable{
+    public static class Remove implements Serializable {
 
         public void remove_card(card){
 
@@ -21,13 +25,11 @@ public class Game {
         public ArrayList<ArrayList<Card>> table;
         public ArrayList<Card> column;
 
-        TableCreator(){
+        public TableCreator(){
             table = new ArrayList<ArrayList<Card>>();
-            column = new ArrayList<Card>();
-
-            for(int i=0; i<4; i++) {
-                table.add(column);
-            }
+        }
+        public ArrayList<ArrayList<Card>> getTable(){
+            return table;
         }
     }
 }
