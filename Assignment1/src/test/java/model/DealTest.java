@@ -12,7 +12,7 @@ public class DealTest {
     public void testDeal() {
         int testint;
         testint = 0;
-        TableCreator table = new TableCreator();
+        Game.TableCreator table = new Game.TableCreator();
         ArrayList<ArrayList<Card>> testtable = table.getTable();
         Card testcard = new Card(1,1);
         testtable.get(0).add(testcard);

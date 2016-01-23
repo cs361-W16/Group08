@@ -8,6 +8,24 @@ import java.util.ArrayList;
  * Created by Emily on 1/22/2016.
  */
 public class Game {
+<<<<<<< HEAD
+=======
+    /**
+     * Created by Emily on 1/22/2016.
+     */
+    public static class Remove implements Serializable {
+
+        public void remove_card(Card toRemove){
+
+        }
+    }
+>>>>>>> refs/remotes/cs361-W16/master
+
+    public void Deal(Deck dealt, Game.TableCreator current){
+        for(int i=0; i<4; i++){
+            current.table.get(i).add(dealt.cards.get(0));
+        }
+    }
 
     /**
      * Created by Brandon on 1/21/2016.
